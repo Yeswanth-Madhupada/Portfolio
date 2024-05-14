@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top hdmain">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h1>Portfolio</h1></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="active" id="navItem1" href="#home"> Home </a>
+            <a href="#about" id="navItem2">About</a>
+            <a href="#skills" id="navItem3">Skills</a>
+            <a href="#projects" id="navItem4">Projects</a>
+            <a href="#certificates" id="navItem5">Certificates</a>
+            <a href="#contact" id="navItem6">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="home d-flex justify-content-center flex-column" id="home">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-12 col-md-6 des box1">
+            <h3 class="hd">Hello ! I am</h3>
+            <h1>Yeswanth Madhupada</h1>
+            <h1>I'm a <span class="fsd">FULL STACK DEVELOPER</span></h1>
+            <h5>Bridging front-end finesse with back-end brilliance.</h5>
+            <a href="RESUME.pdf" download="resume">
+              <button class="bnt">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-download"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
+                  />
+                  <path
+                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"
+                  />
+                </svg>
+                Download Resume
+              </button>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 box2">
+            <img src="img/yesh.jpg" alt="Not Found" class="imz" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="abt">
+        <h1 class="hbt">About <span class="spn">Me</span></h1>
+        <h5 class="abtdes">
+          I'm, an undergraduate full-stack developer eager for internships to
+          apply my skills in real-world projects. Proficient in JavaScript,
+          React.js, Node.js, and more, I bring a strong foundation in both
+          frontend and backend development. With a collaborative mindset and a
+          passion for innovation, I thrive in fast-paced environments where I
+          can tackle challenges and deliver high-quality solutions. Effective
+          communication and teamwork are key to project success, and I'm ready
+          to contribute to diverse teams. Let's connect and discuss how I can
+          bring value to your team with my technical expertise and proactive
+          approach!
+        </h5>
+      </div>
+    </section>
+    <section class="skills" id="skills"></section>
+    <section class="projects" id="projects"></section>
+    <section class="certificates" id="certificates"></section>
+    <section class="contact" id="contact"></section>
+  </body>
+  <script src="main.js"></script>
+</html>

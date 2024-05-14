@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    margin: 0px;
+}
+
+.hdmain {
+    background-color: #000020;
+}
+
+.home {
+    color: #ffffff;
+    padding-top:150px;
+    padding-bottom: 30px;
+}
+section{
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: #000020;
+}
+.about{
+    background-color: #19195fd4;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.abt{
+    text-align: center;
+    width: 73vw;
+}
+.spn{
+    color:#04043d;
+}
+.hbt{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.abtdes{
+    text-align: left;
+    color: #ffffff;
+}
+.bnt{
+    background-color: #199fde;
+    border-radius: 30px;
+    color:#ffffff;
+    padding: 15px;
+    margin-top: 25px;
+    border-width: 0px;
+}
+.imz{
+    height: 75%;
+    width: 65%;
+    border-radius: 50%;
+    border: 5px solid #8d8315;
+    animation: bounce 1.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.49, 0.0, 0.89, .74);
+    animation-iteration-count: infinite;
+    margin-left: 25px;
+}
+@media(max-width:768px){
+.box1{
+    order:3;
+    justify-content: center;
+}
+.box2{
+    order:1;
+}
+.about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+nav a{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left:35px;
+    transition: .3s;
+    text-decoration: none;
+}
+nav a:hover,
+nav a.active{
+    color: #26a7e2;
+}
+.fsd{
+    color: #26a7e2;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+ @keyframes bounce {
+     from {
+         transform: translate3d(0, 10px, 0);
+     }
+
+     to {
+         transform: translate3d(0, 20px, 0);
+     }
+ }
