@@ -60,7 +60,7 @@ align-items: center;
     animation-iteration-count: infinite;
     margin-left: 25px;
 }
-@media(max-width:768px){
+@media(max-width:576px){
 .box1{
     order:3;
     justify-content: center;
