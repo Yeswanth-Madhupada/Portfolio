@@ -1,6 +1,5 @@
 let sections=document.querySelectorAll('section');
 let navLinks=document.querySelectorAll('nav a');
-
 window.onscroll=()=>{
     sections.forEach(sec=>{
         let top=window.scrollY;
@@ -15,3 +14,18 @@ window.onscroll=()=>{
         };
     });
 };
+const form=document.querySelector('form');
+function sendEmail(){
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+
+}
